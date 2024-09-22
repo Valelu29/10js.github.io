@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Programación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Practicas Java Script</h1>
+
+    <!-- Ejercicio 1: Intereses bancarios -->
+    <div class="exercise">
+        <h2>Ejercicio 1: Inversión</h2>
+        <label for="capital">Capital invertido:</label>
+        <input type="tel" id="capital"><br>
+        <button onclick="calcularIntereses()">Calcular</button>
+        <p id="resultadoInteres"></p>
+    </div>
+
+    <!-- Ejercicio 2: Comisiones + sueldo base -->
+    <div class="exercise">
+        <h2>Ejercicio 2: Comisiones de Ventas</h2>
+        <label for="sueldoBase">Sueldo base:</label>
+        <input type="tel" id="sueldoBase"><br>
+        <label for="venta1">Venta 1:</label>
+        <input type="tel" id="venta1"><br>
+        <label for="venta2">Venta 2:</label>
+        <input type="tel" id="venta2"><br>
+        <label for="venta3">Venta 3:</label>
+        <input type="tel" id="venta3"><br>
+        <button onclick="calcularComisiones()">Calcular</button>
+        <p id="resultadoComisiones"></p>
+    </div>
+
+    <!-- Ejercicio 3: Descuento -->
+    <div class="exercise">
+        <h2>Ejercicio 3: Descuento en Tienda</h2>
+        <label for="totalCompra">Total de la compra:</label>
+        <input type="tel" id="totalCompra"><br>
+        <button onclick="calcularDescuento()">Calcular</button>
+        <p id="resultadoDescuento"></p>
+    </div>
+
+    <!-- Ejercicio 4: Calificación Final -->
+    <div class="exercise">
+        <h2>Ejercicio 4: Calificación Final</h2>
+        <label for="parcial1">Parcial 1:</label>
+        <input type="number" id="parcial1"><br>
+        <label for="parcial2">Parcial 2:</label>
+        <input type="number" id="parcial2"><br>
+        <label for="parcial3">Parcial 3:</label>
+        <input type="number" id="parcial3"><br>
+        <label for="examenFinal">Examen final:</label>
+        <input type="number" id="examenFinal"><br>
+        <label for="trabajoFinal">Trabajo final:</label>
+        <input type="number" id="trabajoFinal"><br>
+        <button onclick="calcularCalificacion()">Calcular</button>
+        <p id="resultadoCalificacion"></p>
+    </div>
+
+    <!-- Ejercicio 5: Cálculo de Edad -->
+    <div class="exercise">
+        <h2>Ejercicio 5: Cálculo de Edad</h2>
+        <label for="yearNacimiento">Año de nacimiento:</label>
+        <input type="number" id="yearNacimiento"><br>
+        <button onclick="calcularEdad()">Calcular</button>
+        <p id="resultadoEdad"></p>
+    </div>
+
+    <!-- Ejercicio 6: Palabras a Números -->
+    <div class="exercise">
+        <h2>Ejercicio 6: Palabras a Números</h2>
+        <label for="palabras">Ingresa numeros escritos separados por comas:</label>
+        <input type="text" id="palabras" placeholder="Ej: uno, dos, tres"><br>
+        <button onclick="palabrasANumeros()">Convertir</button>
+        <p id="resultadoPalabrasNumeros"></p>
+    </div>
+
+    <!-- Ejercicio 7: Horas Extra -->
+    <div class="exercise">
+        <h2>Ejercicio 7: Cálculo de Horas Extra</h2>
+        <label for="horasTrabajadas">Horas trabajadas:</label>
+        <input type="number" id="horasTrabajadas"><br>
+        <label for="pagoPorHora">Pago por hora:</label>
+        <input type="number" id="pagoPorHora"><br>
+        <button onclick="calcularHorasExtras()">Calcular</button>
+        <p id="resultadoHorasExtras"></p>
+    </div>
+
+    <!-- Ejercicio 8: Reparto de Utilidades -->
+    <div class="exercise">
+        <h2>Ejercicio 8: Reparto de Utilidades</h2>
+        <label for="salario">Salario mensual:</label>
+        <input type="number" id="salario"><br>
+        <label for="antiguedad">Antigüedad (en años):</label>
+        <input type="number" id="antiguedad"><br>
+        <button onclick="calcularUtilidades()">Calcular</button>
+        <p id="resultadoUtilidades"></p>
+    </div>
+
+    <!-- Ejercicio 9: Validador de formulario -->
+    <div class="exercise">
+        <h2>Ejercicio 9: Validador de Formulario</h2>
+        <form id="formularioRegistro">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password"><br>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="resultadoFormulario"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

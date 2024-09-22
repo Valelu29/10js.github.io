@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: red;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.exercise {
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: bold;
+}
